@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hairnic</title>
+     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+     <script>
+         tailwind.config = {
+           theme: {
+             extend: {
+               colors: {
+                 clifford: '#da373d',
+               }
+             }
+           }
+         }
+       </script>
+       <style type="text/tailwindcss">
+         @layer utilities {
+           .content-auto {
+             content-visibility: auto;
+           }
+         }
+       </style>
+       <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header class="bg-[#90bc79] py-2  sticky top-0 ">
+        <nav class="container mx-auto lg:flex md:inline text-center items-center w-5/6 font-sans font-serif">
+            <div class="flex-1  ">
+                <a class=" flex items-center gap-1 text-white text-3xl m-auto" href="index.html"><img
+                        class="w-16 rounded-full" src="./img/icon/logo.png" alt="img Loding">Hairnic</a>
+            </div>
+            <div class="">
+                <ul class="lg:flex md:flex gap-2 m-auto justify-center items-center">
+                    <li
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li
+                        class=" px-3 py-1 text-lime-950 hover:bg-lime-800 text-2xl tracking-tight decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a href="./html/about.html">About</a>
+                    </li>
+                    <li
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a href="./html/product.html">Product</a>
+                    </li>
+
+
+
+                    <li
+                        class="py-1 text-lime-950  hover:bg-lime-800 hover:text-white hover:transition-colors rounded duration-300">
+
+                        <ul class="dropdown inline relative">
+
+
+                            <button class="dropbtn px-5 text-2xl tracking-tight">
+                                Pages <i class="fa-solid fa-angle-down text-white down-i"></i>
+                                <i class="fa-solid fa-angle-up text-white up-i"></i>
+                            </button>
+
+
+                            <li
+                                class="dropdown-content p-0 hidden absolute bg-white text-black rounded mt-0 w-[160px] text-start px-1.5 shadow-xl shadow-black transition-all ease-in-out duration-1000">
+                                <a class="block hover:text-[#ff5200] hover:tracking-wider m-0 transition-all duration-500"
+                                    href="#">facebook.com </a>
+                                <a class="block hover:text-[#ff5200] hover:tracking-wider m-0 transition-all duration-500"
+                                    href="#">hello </a>
+                                <a class="block hover:text-[#ff5200] hover:tracking-wider m-0 transition-all duration-500"
+                                    href="#">Youtub</a>
+                                <a class="block hover:text-[#ff5200] hover:tracking-wider m-0 transition-all duration-500"
+                                    href="#">Lindenf</a>
+                                <a class="block hover:text-[#ff5200] hover:tracking-wider m-0 transition-all duration-500"
+                                    href="#">Link 1sadfsdf</a>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a class="" href="./html/contact.html">Contact</a>
+                    </li>
+                    <li
+                        class=" px-3 py-1 text-lime-950 text-2xl tracking-tight hover:bg-lime-800 decoration-[#ff5200] hover:underline hover:decoration-4 hover:text-white hover:transition-colors rounded duration-1000">
+                        <a class="" href="./html/login.html">Log in</a>
+                    </li>
+
+
+
+
+
+                    <button class="ease-in-out duration-300 bg-lime-950 px-4 py-2 items-center text-white rounded"><a
+                            href="index.html">Shop Now</a></button>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    
+</body>
+</html>

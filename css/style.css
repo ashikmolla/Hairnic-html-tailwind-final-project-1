@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.froduct-item:hover button {
+    background: #90bc79;
+}
+
+.froduct-item button:hover {
+    background: #ff5200
+}
+.dropbtn .up-i{
+    display: none;
+}
+.dropbtn:hover .down-i{
+    display: none;
+}
+.dropbtn:hover .up-i{
+    display: inline;
+}
+.dropdown:hover .down-i{
+    display: none;
+}
+.dropdown:hover .up-i{
+    display: inline;
+}
+
+.banner-section {
+    background-image: url("../img/photo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.DEALS-OF-THE-DAY {
+    background-image: url("../img/photo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.how-to-use {
+
+    background-image: url("../img/photo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.subscribe-section {
+
+    background-image: url("../img/photo/bg.png");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+
+
+}
+
+.our-costomar {
+
+    background-image: url("../img/photo/bg.png");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+
+
+}
+
+.multi-canetion {
+    background-image: url("../img/photo/bg.png");
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+}
+
+.feature-Start {
+    box-shadow: 1px 1px 2px 5px;
+}
+
+.blog-articles:hover img {
+    box-shadow: 1px 1px 5px 5px;
+}
+
+
+
+/* page animation */
+.about {
+    transition: all ease-in-out;
+    animation-duration: 3s;
+}

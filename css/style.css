@@ -29,6 +29,14 @@
     display: inline;
 }
 
+.navbar {
+    background-image: url("../img/photo/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
 .banner-section {
     background-image: url("../img/photo/bg.png");
     background-size: cover;
@@ -77,9 +85,7 @@
     /* background-repeat: no-repeat; */
 }
 
-.feature-Start {
-    box-shadow: 1px 1px 2px 5px;
-}
+
 
 .blog-articles:hover img {
     box-shadow: 1px 1px 5px 5px;
